@@ -1,0 +1,40 @@
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav-bar {
+  background: #3e34ce;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  gap: 100px;
+  font-size: 20px;
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+
+  text-decoration: none; 
+  border-radius: 20px;
+  width:300px;
+  margin: auto;
+  
+  position: sticky;
+  
+}
+
+display: inline-block;
+  padding: 10px 20px;
+  background-color: #e949b9;
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 20px;
+  text-align: center;
+  
+  border: none;
+  transition: background-color 0.3s ease; /* Makes the change smooth */
+  cursor: pointer;
+
+  width: 200px;
+  height: 50px;

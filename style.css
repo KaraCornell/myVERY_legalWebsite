@@ -1,0 +1,144 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("https://img.freepik.com/free-psd/collection-gray-stars_23-2150962409.jpg");
+    }
+
+section {
+  display: flex;
+}
+
+
+ #container {
+    height: 200px;
+    display: flex;
+    /* border: 2px solid rgb(255, 0, 0); */
+    justify-content: space-around;
+    align-items: center;
+ }
+ .header-image{
+    max-width: 100%;
+ }
+
+ .jinshipleasebesmaller {
+   width:200px;
+   height: 200px;
+   border-radius: 20px;
+ }
+
+ h1, h2, h3 {
+    font-family: 'Bubblegum Sans', cursive;
+  text-indent: 20px;
+  color:#0e1874;
+  font-size: 20px;
+   
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    }
+
+    #header_image {
+        width: 200px;
+        border-radius: 200px;
+        
+        margin-right: 50;
+        
+    } 
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e34ce;
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 10px;
+  text-align: center;
+  
+}
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e34ce;
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 20px;
+  text-align: center;
+  
+  border: none;
+  transition: background-color 0.3s ease; /* Makes the change smooth */
+  cursor: pointer;
+
+  width: 200px;
+  height: 50px;
+  
+}
+
+.my-button:hover {
+  background-color: #3e34ce; 
+}
+.container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+h2 {
+    font-family: 'Bubblegum Sans', cursive;
+  text-indent: 30px;
+  color:#0e1874;
+  font-size: 30px;
+   
+}
+.move-right {
+    padding-left: 20px; 
+}
+a{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+
+
+.parent {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+.hellokitty {
+  float: left;
+  margin-right: 15px; 
+  margin-bottom: 50px;
+  margin-left: 40px; 
+  margin-top: 20px;  
+  display: block;   
+  width: 70%;
+  height: 70%; 
+  align-items:center;
+}
+
+.mymelody {
+  float: left;
+  margin-right: 15px; 
+  margin-bottom: 50px;
+  margin-left: 40px; 
+  margin-top: 20px;  
+  display: block;    
+}
+
+
+img{
+  margin-right: 30px;
+  margin-left: 50px;
+}
