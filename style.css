@@ -5,7 +5,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("https://img.freepik.com/free-psd/collection-gray-stars_23-2150962409.jpg");
+    background-image: url("background.jpg");
     }
 
 section {
@@ -84,7 +84,7 @@ body {
 }
 
 .my-button:hover {
-  background-color: #3e34ce; 
+  background-color: #0e1874; 
 }
 .container {
     display: flex;
@@ -94,8 +94,10 @@ body {
 h2 {
     font-family: 'Bubblegum Sans', cursive;
   text-indent: 30px;
-  color:#0e1874;
+  color:#ffffff;
   font-size: 30px;
+   
+  
    
 }
 .move-right {
@@ -120,7 +122,7 @@ a{
   float: left;
   margin-right: 15px; 
   margin-bottom: 50px;
-  margin-left: 40px; 
+  margin-left: px; 
   margin-top: 20px;  
   display: block;   
   width: 70%;
@@ -141,4 +143,31 @@ a{
 img{
   margin-right: 30px;
   margin-left: 50px;
+}
+
+.bg{
+  
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e34ce;
+  color: white;
+  text-decoration: none; /* Removes the underline */
+  border-radius: 20px;
+  text-align: center;
+  
+  border: none;
+  transition: background-color 0.3s ease; /* Makes the change smooth */
+  cursor: pointer;
+
+  width: 200px;
+  height: 50px;
+  
+}
+.undertake{
+  width:45%;
+  height:45%;
+}
+
+a{
+  color: white;
 }
